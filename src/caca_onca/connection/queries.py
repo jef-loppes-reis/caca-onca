@@ -30,7 +30,7 @@ query_base: str = '''
         pedido.sernota as serie_nota,
         pedido.cancelada as cancelado
         FROM
-            "D-1".pedido
+            "H-1".pedido
     WHERE 
         codvde = '%(codvde)s' AND
         numnota IS NULL AND
